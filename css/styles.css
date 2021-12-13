@@ -1,0 +1,202 @@
+body {
+    color: gray;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-link {
+    color: gray;
+}
+
+.nav-link:hover {
+    color: darkslategray;
+}
+
+.second-box {
+    background-image: url(https://cdn.dribbble.com/users/4479253/screenshots/12231271/git_developer_4x.jpg);
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 270px;  
+    padding-left: 50px;
+    margin-bottom: 30px;
+    height: 1000px;
+}
+
+.second-box h2 {
+    padding-top: 70px;
+    font-weight: bold;
+}
+
+.second-box p {
+    font-weight: bold;
+}
+
+.easy-ways {
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.third-box {
+    margin: 50px 50px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.card {
+    border: none;
+}
+
+.card-title {
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-title, .card-text {
+    padding-top 30px;
+}
+
+.image-2, {
+    height: 340px;
+}
+
+.image-3 {
+    height: 391px;
+}
+
+.pricing {
+    text-align: center;
+}
+
+.fourth-box {
+    margin: 50px 50px;
+    display: flex;
+    justify-content: space-between; 
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    padding-left: 60px;
+    padding-top: 30px;
+}
+
+.fourth-box h2 {
+    font-weight: bold;
+}
+
+.fas-green, .standart-fas {
+    color: #58ACFA;
+}
+
+.two-columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.first-column, .second-column {
+    padding: 30px 30px;
+    padding-left: 80px; 
+    padding-right: 100px;   
+}
+
+.included {
+     margin-bottom: 5px;
+}
+
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 80px;
+}
+
+.price-button {
+    margin-bottom: 10px;
+}
+
+.price-button .btn {
+    width: 196px;
+}
+
+.create-button {
+    margin-bottom: 10px;  
+}
+
+.create-button .btn:hover {
+    background-color: rgb(34, 111, 173);
+}
+
+.create-button .btn {
+    background-color: #58ACFA;
+    border: none;
+}
+
+.price-button .standart-button {
+    width: 178px;
+}
+
+.journal {
+    margin: 80px 80px;
+}
+
+.hr {
+    margin: 40px 40px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 50px;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .image-1, .image-2, .image-3 {
+        height: 230px;
+    }
+
+    .fourth-box {
+        display: flex; 
+        flex-direction: column;
+    }
+
+    .texts {
+        margin-right: 40px;
+    }
+
+    .button {
+        margin-left: 140px;
+    }
+
+    .second-box {
+        height: 500px;
+    }
+
+    .second-box h2 {
+        margin-top: -190px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .image-1, .image-2, .image-3 {
+        height: 300px;
+        
+    }
+
+}
+
+
+
+
+
